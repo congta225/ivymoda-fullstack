@@ -17,7 +17,6 @@ if(isset($_POST['sanpham_anh'])){
     
 }
 else {
-    echo "không get được chế ơi";
+    echo "Không get được dữ liệu";
 }
 ?>
-

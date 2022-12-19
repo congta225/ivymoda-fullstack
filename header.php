@@ -111,7 +111,6 @@ $index = new index;
                             </div>
                         </li>
                     </ul>
-
                 </div>
             </div>
         </div>

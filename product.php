@@ -17,7 +17,7 @@ if (isset($_GET['sanpham_id'])|| $_GET['sanpham_id']!=NULL){
                      $get_sanpham = $index -> get_sanpham($sanpham_id);
                      if ($get_sanpham ){$resultE = $get_sanpham -> fetch_assoc();}
                 ?>
-            <p><a href="index.php">Trang chủ</a></p> <span>&#8594;</span>
+            <p><a href="index.php">Trang chủ của chủ</a></p> <span>&#8594;</span>
             <p><?php echo $resultE['danhmuc_ten']  ?></p><span>&#8594;</span>
             <p><?php echo $resultE['loaisanpham_ten'] ?></p><span>&#8594;</span>
             <p><?php echo $resultE['sanpham_tieude'] ?></p>
